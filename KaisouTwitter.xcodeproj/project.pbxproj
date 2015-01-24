@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22962D281A6BED5700831E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22962D271A6BED5700831E62 /* AppDelegate.swift */; };
+		22962D2A1A6BED5700831E62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22962D291A6BED5700831E62 /* ViewController.swift */; };
+		22962D2D1A6BED5700831E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22962D2B1A6BED5700831E62 /* Main.storyboard */; };
+		22962D2F1A6BED5700831E62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22962D2E1A6BED5700831E62 /* Images.xcassets */; };
+		22962D321A6BED5700831E62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22962D301A6BED5700831E62 /* LaunchScreen.xib */; };
+		22962D3E1A6BED5700831E62 /* KaisouTwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22962D3D1A6BED5700831E62 /* KaisouTwitterTests.swift */; };
+		22962D481A6BF3CB00831E62 /* OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22962D471A6BF3CB00831E62 /* OAuthSwift.swift */; };
+		22962D4A1A6BF46C00831E62 /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22962D491A6BF46C00831E62 /* Contents.swift */; };
+		22962D4C1A6BF6D300831E62 /* MyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22962D4B1A6BF6D300831E62 /* MyClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22962D381A6BED5700831E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22962D1A1A6BED5700831E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22962D211A6BED5700831E62;
+			remoteInfo = KaisouTwitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22962D221A6BED5700831E62 /* KaisouTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaisouTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22962D261A6BED5700831E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22962D271A6BED5700831E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22962D291A6BED5700831E62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22962D2C1A6BED5700831E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22962D2E1A6BED5700831E62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22962D311A6BED5700831E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		22962D371A6BED5700831E62 /* KaisouTwitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaisouTwitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22962D3C1A6BED5700831E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22962D3D1A6BED5700831E62 /* KaisouTwitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaisouTwitterTests.swift; sourceTree = "<group>"; };
+		22962D471A6BF3CB00831E62 /* OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwift.swift; sourceTree = "<group>"; };
+		22962D491A6BF46C00831E62 /* Contents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		22962D4B1A6BF6D300831E62 /* MyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClient.swift; sourceTree = "<group>"; };
+		229F2C021A73ED950062124C /* KaisouTwitter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KaisouTwitter-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22962D1F1A6BED5700831E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22962D341A6BED5700831E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22962D191A6BED5700831E62 = {
+			isa = PBXGroup;
+			children = (
+				22962D241A6BED5700831E62 /* KaisouTwitter */,
+				22962D3A1A6BED5700831E62 /* KaisouTwitterTests */,
+				22962D231A6BED5700831E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22962D231A6BED5700831E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22962D221A6BED5700831E62 /* KaisouTwitter.app */,
+				22962D371A6BED5700831E62 /* KaisouTwitterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22962D241A6BED5700831E62 /* KaisouTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				22962D271A6BED5700831E62 /* AppDelegate.swift */,
+				22962D291A6BED5700831E62 /* ViewController.swift */,
+				22962D2B1A6BED5700831E62 /* Main.storyboard */,
+				22962D2E1A6BED5700831E62 /* Images.xcassets */,
+				22962D301A6BED5700831E62 /* LaunchScreen.xib */,
+				22962D251A6BED5700831E62 /* Supporting Files */,
+				22962D471A6BF3CB00831E62 /* OAuthSwift.swift */,
+				22962D491A6BF46C00831E62 /* Contents.swift */,
+				22962D4B1A6BF6D300831E62 /* MyClient.swift */,
+				229F2C021A73ED950062124C /* KaisouTwitter-Bridging-Header.h */,
+			);
+			path = KaisouTwitter;
+			sourceTree = "<group>";
+		};
+		22962D251A6BED5700831E62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22962D261A6BED5700831E62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22962D3A1A6BED5700831E62 /* KaisouTwitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				22962D3D1A6BED5700831E62 /* KaisouTwitterTests.swift */,
+				22962D3B1A6BED5700831E62 /* Supporting Files */,
+			);
+			path = KaisouTwitterTests;
+			sourceTree = "<group>";
+		};
+		22962D3B1A6BED5700831E62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22962D3C1A6BED5700831E62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22962D211A6BED5700831E62 /* KaisouTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22962D411A6BED5700831E62 /* Build configuration list for PBXNativeTarget "KaisouTwitter" */;
+			buildPhases = (
+				22962D1E1A6BED5700831E62 /* Sources */,
+				22962D1F1A6BED5700831E62 /* Frameworks */,
+				22962D201A6BED5700831E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaisouTwitter;
+			productName = KaisouTwitter;
+			productReference = 22962D221A6BED5700831E62 /* KaisouTwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22962D361A6BED5700831E62 /* KaisouTwitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22962D441A6BED5700831E62 /* Build configuration list for PBXNativeTarget "KaisouTwitterTests" */;
+			buildPhases = (
+				22962D331A6BED5700831E62 /* Sources */,
+				22962D341A6BED5700831E62 /* Frameworks */,
+				22962D351A6BED5700831E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22962D391A6BED5700831E62 /* PBXTargetDependency */,
+			);
+			name = KaisouTwitterTests;
+			productName = KaisouTwitterTests;
+			productReference = 22962D371A6BED5700831E62 /* KaisouTwitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22962D1A1A6BED5700831E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = ssk;
+				TargetAttributes = {
+					22962D211A6BED5700831E62 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					22962D361A6BED5700831E62 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 22962D211A6BED5700831E62;
+					};
+				};
+			};
+			buildConfigurationList = 22962D1D1A6BED5700831E62 /* Build configuration list for PBXProject "KaisouTwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22962D191A6BED5700831E62;
+			productRefGroup = 22962D231A6BED5700831E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22962D211A6BED5700831E62 /* KaisouTwitter */,
+				22962D361A6BED5700831E62 /* KaisouTwitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22962D201A6BED5700831E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22962D2D1A6BED5700831E62 /* Main.storyboard in Resources */,
+				22962D321A6BED5700831E62 /* LaunchScreen.xib in Resources */,
+				22962D2F1A6BED5700831E62 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22962D351A6BED5700831E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22962D1E1A6BED5700831E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22962D4C1A6BF6D300831E62 /* MyClient.swift in Sources */,
+				22962D2A1A6BED5700831E62 /* ViewController.swift in Sources */,
+				22962D481A6BF3CB00831E62 /* OAuthSwift.swift in Sources */,
+				22962D281A6BED5700831E62 /* AppDelegate.swift in Sources */,
+				22962D4A1A6BF46C00831E62 /* Contents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22962D331A6BED5700831E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22962D3E1A6BED5700831E62 /* KaisouTwitterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22962D391A6BED5700831E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22962D211A6BED5700831E62 /* KaisouTwitter */;
+			targetProxy = 22962D381A6BED5700831E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22962D2B1A6BED5700831E62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22962D2C1A6BED5700831E62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22962D301A6BED5700831E62 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22962D311A6BED5700831E62 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22962D3F1A6BED5700831E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22962D401A6BED5700831E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22962D421A6BED5700831E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = KaisouTwitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KaisouTwitter/KaisouTwitter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22962D431A6BED5700831E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = KaisouTwitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KaisouTwitter/KaisouTwitter-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		22962D451A6BED5700831E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KaisouTwitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaisouTwitter.app/KaisouTwitter";
+			};
+			name = Debug;
+		};
+		22962D461A6BED5700831E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KaisouTwitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaisouTwitter.app/KaisouTwitter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22962D1D1A6BED5700831E62 /* Build configuration list for PBXProject "KaisouTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22962D3F1A6BED5700831E62 /* Debug */,
+				22962D401A6BED5700831E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22962D411A6BED5700831E62 /* Build configuration list for PBXNativeTarget "KaisouTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22962D421A6BED5700831E62 /* Debug */,
+				22962D431A6BED5700831E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22962D441A6BED5700831E62 /* Build configuration list for PBXNativeTarget "KaisouTwitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22962D451A6BED5700831E62 /* Debug */,
+				22962D461A6BED5700831E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22962D1A1A6BED5700831E62 /* Project object */;
+}
