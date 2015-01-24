@@ -19,9 +19,6 @@ class ViewController: UIViewController {
 
     @IBAction func clickButton(sender: AnyObject) {
         doTwitter()
-//        let url = NSURL(string:"http://qiita.com")
-//        let app:UIApplication = UIApplication.sharedApplication()
-//        app.openURL(url!)
     }
     
     override func didReceiveMemoryWarning() {
@@ -29,6 +26,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // Twitter OAuth認証
     func doTwitter(){
         let oauth = OAuthSwift(
             consumerKey:    Twitter["consumerKey"]!,
@@ -40,8 +38,6 @@ class ViewController: UIViewController {
         
         // 通信開始
         oauth.start()
-        
     }
-
 }
 

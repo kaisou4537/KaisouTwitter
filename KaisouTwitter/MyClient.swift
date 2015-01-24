@@ -7,3 +7,5 @@
 //
 
 import Foundation
+
+// きっと何かしら汎用性のあるClient作る！！
