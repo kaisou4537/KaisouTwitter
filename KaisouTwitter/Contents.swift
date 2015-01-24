@@ -9,6 +9,6 @@
 import Foundation
 let Twitter =
 [
-    "consumerKey": "CXubzXLR2vzqbCf1d9maSJ4ob",
-    "consumerSecret": "FA9EuVHebtsKVQrIRKNiMD317SkreetkHbHHquQRHvk3EbWy9I"
+    "consumerKey": "",
+    "consumerSecret": ""
 ]
